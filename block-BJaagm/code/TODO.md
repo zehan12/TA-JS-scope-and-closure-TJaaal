@@ -12,15 +12,21 @@ This is the default execution context in which JS code start its execution when 
 
 4. When do you create a global execution context.
 
-when we 
+when a peice of code run in javascript it GEC which store all the line of one by one in memory and it create execution context of every function.
 
 5. Execution context consists of what all things?
 
+An execution context is an abstract concept of an environment where the Javascript code is evaluated and executed. Whenever any code is run in JavaScript, it’s run inside an execution context.
+
 6. What are the different types of execution context?
+global and functional
 
 7. When global and function execution context gets created?
+when code is run then global ec created and when function is call is created the function ec
 
 8. Function execution gets created during function execution or while declaring a function.
+
+while function execution
 
 
 9. Create a execution context diagram of the following code on your notebook. Take a screenshot/photo and store it in the folder named `img`. Use `![](./img/image-name.png)` to display it here.
