@@ -17,6 +17,8 @@ let num = getSum();
 
 Create the execution context diagram for following code. Also write the output of the code below.
 
+after
+
 ```js
 function getCounter() {
   let count = 0;
