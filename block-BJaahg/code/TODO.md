@@ -329,6 +329,9 @@ function outer() {
 outer();
 ```
 
+
+
+
 30. Using reduce find the final value when the initial value passed is `100`. You have to pass the output of one function into the input of next function in the array `allFunctions` starts with `addOne` ends with `half`.
 
 ```js
@@ -353,6 +356,11 @@ let allFunctions = [
   multiplyThree,
   half,
 ];
+
+allFunctions.reduce((acc,cv)=>{
+    acc = cv(acc);
+    return acc;
+},100);
 
 // Answer is: 447
 ```
