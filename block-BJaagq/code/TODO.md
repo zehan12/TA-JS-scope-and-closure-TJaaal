@@ -68,7 +68,7 @@ function main() {
     console.log(two); // 2
     console.log(three); // 3
   }
-  console.log(four); // 4
+  console.log(four); // four is not defined
   inner();
 }
 
