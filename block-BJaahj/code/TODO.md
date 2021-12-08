@@ -4,7 +4,9 @@
 
 ```js
 function objOfMatches(array1, array2, callback) {}
-
+    for(let a1 of array1){
+      a1[a1] =
+    }
 // TEST
 console.log(
   objOfMatches(
@@ -20,7 +22,9 @@ console.log(
 2. Construct a function `multiMap` that will accept two arrays: an array of values and an array of callbacks. `multiMap` will return an object whose keys match the elements in the array of values. The corresponding values that are assigned to the keys will be arrays consisting of outputs from the array of callbacks, where the input to each callback is the key.
 
 ```js
-function multiMap(arrVals, arrCallbacks) {}
+function multiMap(arrVals, arrCallbacks) {
+  
+}
 
 // TEST
 console.log(
@@ -50,7 +54,9 @@ To build the object, `objOfMatchesWithArray` will test each element of the first
 The final output from the third array will be matched agains the same indexed element of second array. If there is a match, the element from the first array becomes a key in an object, and the element from the second array becomes the corresponding value.
 
 ```js
-function objOfMatchesWithArray(array1, array2, callback) {}
+function objOfMatchesWithArray(array1, array2, callback) {
+  return array1, array2, callback()
+}
 
 // TEST
 console.log(
