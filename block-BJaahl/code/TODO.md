@@ -3,6 +3,11 @@
 ```js
 function once(cb) {
   // your code goes here
+  cb(
+    function (){
+      console.log("hello")
+    }
+  )
 }
 
 // TEST
